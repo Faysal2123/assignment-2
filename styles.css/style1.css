@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top:5rem ;
+   
+
+}
+.nav-title{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-options{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.home-color{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px;
+
+}
+.shape-font{
+    font-family: "Dancing Script", cursive;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    width: 520px;
+    margin-top: 50px;
+    /* line-height: 24px; */
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    width: 520px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 40px;
+    border: none;
+}
+.btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 500;
+
+    
+}
