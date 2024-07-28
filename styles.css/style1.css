@@ -31,6 +31,10 @@ header{
     gap: 3rem;
     align-items: center;
 }
+.nav-options p{
+    color:rgb(255, 255, 255);
+    
+}
 .home-color{
     border-radius: 46px;
     background: rgb(230, 83, 60);
@@ -79,4 +83,65 @@ header{
     font-weight: 500;
 
     
+}
+main{
+    background-color: rgb(18, 17, 17);
+}
+.habits-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 85px;
+
+
+}
+.habits-items{
+    display: flex;
+    margin-bottom: 115px;
+    justify-content: space-between;
+}
+.habit-card img{
+    border-radius: 100px;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.habit-card{
+    /* width: 231px; */
+    justify-content: space-between;
+   
+    width: 231px;
+
+}
+.habits-title{
+    /* color: rgb(255, 255, 255); */
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+.habits-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 58px;
+    /* align-items: center; */
+    text-align: center;
+    width: 671px;
+}
+.habit-card h5{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.habit-card p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
 }
