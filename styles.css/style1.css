@@ -202,7 +202,10 @@ main{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 58px;
+    margin-bottom: 88px;
+}
+.third-section-container{
+    margin-bottom: 63px;
 }
 .third-section-container img{
     width: 100%;
@@ -267,4 +270,22 @@ main{
     top: 80%;
     right:15%;
     transform: translate(-15%, -5%);
+}
+.fourth-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.fourth-section-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.fourth-section-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 58px;
 }
