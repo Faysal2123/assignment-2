@@ -95,11 +95,16 @@ header{
 main{
     background-color: rgb(18, 17, 17);
 }
+.habits-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .habits-info{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 85px; */
+    
 
 
 }
@@ -107,19 +112,17 @@ main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-bottom: 115px;
+    align-items: center;
+    text-align: center;
     justify-content: space-between;
+
+
 }
 .habit-card img{
     border-radius: 100px;
     align-items: center;
-    margin-left: 20px;
-
-}
-.habit-card{
+    justify-content: center;
    
-    justify-content: space-between;
-   
-    width: 231px;
 
 }
 .habits-title{
