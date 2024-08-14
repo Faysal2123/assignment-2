@@ -82,5 +82,10 @@
     .fourth-section-content h1{
         font-size: 38px;
     }
-    
+    .fifth-section{
+        flex-direction: column;
+        
+
+    }
+   
 }
