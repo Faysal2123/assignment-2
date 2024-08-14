@@ -152,6 +152,10 @@
         top: 987%;
     
     }
+    .footer-container{
+        flex-direction: column;
+        padding: 0;
+    }
     
    
 }

@@ -392,6 +392,9 @@ select{
     width: 100%;
     height: 50px;
 }
+.six-section-container{
+    padding-bottom: 88px;
+}
 .six-section-content{
     display: flex;
     flex-direction: column;
@@ -421,6 +424,7 @@ select{
 
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
+    /* margin-bottom: 88px; */
 
 }
 .trainer-info img{
@@ -500,4 +504,82 @@ select{
     position: absolute;
     top: 381%;
 
+}
+.footer-container{
+    display:flex ;
+    justify-content: space-between;
+    padding: 50px;
+    /* margin-top: 88px; */
+}
+hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.footer-color{
+    background: rgb(22, 22, 22);
+}
+.footer-content h1{
+    color: rgb(230, 83, 60);
+    
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+
+}
+.footer-content p{
+    color: rgba(255, 255, 255, 0.5);
+   
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+
+}
+.footer-contact h2{
+    color: rgb(255, 255, 255);
+    
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 39px;
+    margin-top: 20px;
+
+}
+.footer-contact p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1rem;
+    font-size: 23px;
+    font-weight: 400;
+}
+.footer-info h2{
+    color: rgb(255, 255, 255);
+    
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 39px;
+    margin-top: 20px;
+
+}
+.footer-info p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1rem;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+
+.footer-instruction{
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.footer-instruction p{
+    color: rgba(255, 255, 255, 0.5);
+    
+    font-size: 20px;
+    font-weight: 400;
 }
