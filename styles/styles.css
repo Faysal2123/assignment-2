@@ -54,7 +54,8 @@ header{
 .banner-container{
     display: flex;
     justify-content: space-between;
-    
+  
+        
 }
 
 .banner-title{
@@ -92,10 +93,13 @@ header{
     background-color: transparent;  
     color: white;
 }
+.banner-image{
+    position: relative;
+
+}
 .banner-image img{
     height: 100%;
     width: 100%;
-    position: relative;
 }
 .nav-hamburger-menu{
     display: none;
@@ -106,6 +110,14 @@ header{
     background: rgb(230, 83, 60);
     border-radius: 24px;
 
+}
+.span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 29px;
 }
 .design-1{
     display: flex;
@@ -120,8 +132,8 @@ header{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 57%;
-    right: 23%;
+    top: 70%;
+    right: 65%;
 }
 .tutorial-info h5{
     color: rgb(250, 250, 249);
@@ -146,8 +158,8 @@ header{
     align-items: center;
     text-align: center;
     justify-content: center;
-    top: 29%;
-    left: 85%;
+    top: 26%;
+    left: 75%;
 }
 .design-2 h5{
     color: rgb(255, 255, 255);
@@ -424,11 +436,11 @@ select{
 
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
-    /* margin-bottom: 88px; */
-
+    position: relative;
+  
 }
 .trainer-info img{
-    position: relative;
+    
     height: 90%;
     width: 98%;
     border-radius: 18px;
@@ -447,62 +459,62 @@ select{
 
 .tainer-card-1 h5{
     position: absolute;
-    top: 328%;
+    top:38% ;
   
 }
 .tainer-card-1 p{
     position: absolute;
-    top: 331%;
+    top:41%;
 
 }
 .tainer-card-2 h5 {
     position: absolute;
-    top: 328%;
+    top: 38%;
 
 }
 .tainer-card-2 p {
     position: absolute;
-    top: 331%;
+    top: 41%;
 
 }
 .tainer-card-3 h5{
     position: absolute;
-    top: 328%;
+    top:38% ;
 
 }
 .tainer-card-3 p{
     position: absolute;
-    top: 331%;
+    top: 41%;
 
 }
 .tainer-card-4 h5{
     position: absolute;
-    top: 378%;
+    top:87% ;
 
 }
 .tainer-card-4 p{
     position: absolute;
-    top: 381%;
+    top: 90%;
 
 }
 .tainer-card-5 h5{
     position: absolute;
-    top: 378%;
+    top: 87%;
 
 }
 .tainer-card-5 p{
     position: absolute;
-    top: 381%;
+    top: 90%;
 
 }
 .tainer-card-6 h5{
     position: absolute;
-    top: 378%;
+    top:87% ;
 
 }
 .tainer-card-6 p{
     position: absolute;
-    top: 381%;
+    top:90% ;
 
 }
 .footer-container{

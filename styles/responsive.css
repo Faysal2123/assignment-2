@@ -36,13 +36,13 @@
     .design-1{
         width: 160px;
         height: 80px;
-        top: 150%;
+        top: 68%;
         right:57% ;
 
     }
     .design-2{
-        top: 105%;
-        left: 53%;
+        top: 26%;
+        left: 60%;
         width: 170px;
         height: 80px;
     }
@@ -113,43 +113,43 @@
     
     .tainer-card-2 h5 {
         position: absolute;
-        top:832%;
+        top:16%;
     
     }
     .tainer-card-2 p {
         position: absolute;
-        top: 836%;
+        top: 18%;
     
     }
     .tainer-card-3 h5{
         position: absolute;
-        top: 884%;
+        top:42% ;
     
     }
     .tainer-card-3 p{
         position: absolute;
-        top: 888%;
+        top: 44%;
     
     }
    
     .tainer-card-5 h5{
         position: absolute;
-        top: 937%;
+        top:69% ;
     
     }
     .tainer-card-5 p{
         position: absolute;
-        top: 941%;
+        top:71% ;
     
     }
     .tainer-card-6 h5{
         position: absolute;
-        top: 983%;
+        top: 92%;
     
     }
     .tainer-card-6 p{
         position: absolute;
-        top: 987%;
+        top: 94%;
     
     }
     .footer-container{
