@@ -392,3 +392,112 @@ select{
     width: 100%;
     height: 50px;
 }
+.six-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin-top: 88px;
+    margin-bottom: 58px;
+}
+.six-section-content h1{
+    color: rgb(255, 255, 255);
+    
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.six-section-content p{
+    color: rgba(255, 255, 255, 0.5);
+    
+    font-size: 14px;
+    font-weight: 400;
+}
+.trainer-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+
+}
+.trainer-info img{
+    position: relative;
+    height: 90%;
+    width: 98%;
+    border-radius: 18px;
+
+    background: rgba(0, 0, 0, 0.2);
+}
+.trainer-info h5{
+    
+    font-size: 20px;
+    color:white;
+   
+}
+.trainer-info p{
+    color: rgba(255, 255, 255, 0.877);
+}
+
+.tainer-card-1 h5{
+    position: absolute;
+    top: 328%;
+  
+}
+.tainer-card-1 p{
+    position: absolute;
+    top: 331%;
+
+}
+.tainer-card-2 h5 {
+    position: absolute;
+    top: 328%;
+
+}
+.tainer-card-2 p {
+    position: absolute;
+    top: 331%;
+
+}
+.tainer-card-3 h5{
+    position: absolute;
+    top: 328%;
+
+}
+.tainer-card-3 p{
+    position: absolute;
+    top: 331%;
+
+}
+.tainer-card-4 h5{
+    position: absolute;
+    top: 378%;
+
+}
+.tainer-card-4 p{
+    position: absolute;
+    top: 381%;
+
+}
+.tainer-card-5 h5{
+    position: absolute;
+    top: 378%;
+
+}
+.tainer-card-5 p{
+    position: absolute;
+    top: 381%;
+
+}
+.tainer-card-6 h5{
+    position: absolute;
+    top: 378%;
+
+}
+.tainer-card-6 p{
+    position: absolute;
+    top: 381%;
+
+}

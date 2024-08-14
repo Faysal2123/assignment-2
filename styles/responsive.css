@@ -87,5 +87,71 @@
         
 
     }
+    .tainer-card-1{
+        display: none;
+
+    }
+    .tainer-card-4{
+        display: none;
+
+    }
+    .trainer-info{
+        grid-template-columns: 1fr;
+
+    }
+    .tainer-card-1 h5{
+        font-size: 15px;
+
+    }
+    .six-section-content h1{
+    
+        font-size: 40px;
+        margin-bottom: 20px;
+        
+       
+    }
+    
+    .tainer-card-2 h5 {
+        position: absolute;
+        top:832%;
+    
+    }
+    .tainer-card-2 p {
+        position: absolute;
+        top: 836%;
+    
+    }
+    .tainer-card-3 h5{
+        position: absolute;
+        top: 884%;
+    
+    }
+    .tainer-card-3 p{
+        position: absolute;
+        top: 888%;
+    
+    }
+   
+    .tainer-card-5 h5{
+        position: absolute;
+        top: 937%;
+    
+    }
+    .tainer-card-5 p{
+        position: absolute;
+        top: 941%;
+    
+    }
+    .tainer-card-6 h5{
+        position: absolute;
+        top: 983%;
+    
+    }
+    .tainer-card-6 p{
+        position: absolute;
+        top: 987%;
+    
+    }
+    
    
 }
