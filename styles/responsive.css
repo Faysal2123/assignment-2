@@ -1,0 +1,49 @@
+@media screen and (max-width:576px) {
+    .nav-options{
+        display: none;
+    }
+    .nav-hamburger-menu{
+        display: block;
+        color: white;
+        font-size: 20px;
+    }
+    .banner-container{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .button-flex{
+        
+        gap: 10px;
+    }
+    .nav-container{
+        align-items: center;
+    }
+    .banner-title{
+      font-size: 50px;
+    }
+    .banner-description{
+        font-size: 12px;
+    }
+    .btn-primary{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .btn{
+        padding: 10px 20px;
+        font-size: 16px;
+
+    }
+    .design-1{
+        width: 160px;
+        height: 80px;
+        top: 100%;
+        right:60% ;
+
+    }
+    .design-2{
+        top: 65%;
+        left: 55%;
+        width: 170px;
+        height: 80px;
+    }
+}

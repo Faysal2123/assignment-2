@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 120%);
+    /* background-image: linear-gradient(rgb(43,43,43),rgba(119,119,119,0)); */
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top:5rem ;
+   
+
+}
+
+.nav-title{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-options{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+.nav-options p{
+    color:rgb(255, 255, 255);
+    
+}
+.nav-hamburger-menu{
+    display: none;
+}
+.home-color{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px;
+
+}
+.shape-font{
+    font-family: "Dancing Script", cursive;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    /* width: 520px; */
+    margin-top: 50px;
+    
+}
+.banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 40px;
+    border: none;
+    color: aliceblue;
+}
+.btn{
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 500; 
+    background-color: transparent;  
+    color: white;
+}
+.banner-image img{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.nav-hamburger-menu{
+    display: none;
+}
+.div-1{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 24px;
+
+}
+.design-1{
+    display: flex;
+    gap: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;  
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 206px;
+    height: 96px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 57%;
+    right: 23%;
+}
+.tutorial-info h5{
+    color: rgb(250, 250, 249);
+    font-size: 24px;
+    font-weight: 900;
+}
+.tutorial-info{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.design-2{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 193px;
+    height: 98px;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    top: 29%;
+    left: 85%;
+}
+.design-2 h5{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+
+
+}
+.design-2 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+
+}
