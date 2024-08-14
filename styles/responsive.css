@@ -61,4 +61,23 @@
     .habit-card p{
         margin-bottom: 30px;
     }
+    .second-section-container{
+        flex-direction: column;
+    }
+    .second-section-image img{
+        height: 80%;
+        width: 87%;
+      
+        padding: 20px;
+    }
+    .section-title{
+        font-size: 25px;
+    }
+    .second-section-content{
+        padding: 20px;
+    }
+    .second-section-content .btn-primary{
+       
+        width: 100%;
+    }
 }
