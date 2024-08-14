@@ -243,13 +243,6 @@ main{
     padding: 20px;
     border-radius: 50px;
 }
-/* .second-section-image img{
-    height: 70%;
-    width: 80%;
-    padding: 20px;
-    border-radius: 50px;
-    justify-content: space-around;
-} */
 .section-title{
     color: rgb(255, 255, 255);
    
@@ -267,4 +260,23 @@ main{
     text-align: left;
     line-height: 24px;
 
+}
+.fourth-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.fourth-section-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+   
+}
+.fourth-section-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 58px;
 }

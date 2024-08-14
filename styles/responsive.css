@@ -67,7 +67,6 @@
     .second-section-image img{
         height: 80%;
         width: 87%;
-      
         padding: 20px;
     }
     .section-title{
@@ -80,4 +79,8 @@
        
         width: 100%;
     }
+    .fourth-section-content h1{
+        font-size: 38px;
+    }
+    
 }
